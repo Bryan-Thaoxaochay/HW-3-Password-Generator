@@ -50,7 +50,7 @@ function writePassword() {
   
 
 
-var password = generatePassword(length, upperCase, lowerCase, numbers, specialCharacters);
+var password = generatePassword();
 
   var passwordText = document.querySelector("#password"); // This is selecting the password ID from the HTML and making it a variable.
 
