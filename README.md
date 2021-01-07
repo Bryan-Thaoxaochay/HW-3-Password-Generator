@@ -16,8 +16,6 @@ Javascript can be very difficult and that I need to work on understanding the pu
 
 The webpage is a simple layout of a header, container, subheader, textbox, and button. Once the user clicks on the button, a series of prompts will appear on the top asking the questions for each criteria. The questions come in this order: length of password, uppercase letters, lowercase letters, numbers, and symbols.
 
-# Screenshots
-
 # Links
 
 ## Webpage URL
