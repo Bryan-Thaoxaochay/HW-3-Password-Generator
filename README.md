@@ -22,6 +22,8 @@ The webpage is a simple layout of a header, container, subheader, textbox, and b
 
 ## Webpage URL
 
+https://bryan-thaoxaochay.github.io/HW-3-Password-Generator/
+
 ## Github Repo
 
-
+https://github.com/Bryan-Thaoxaochay/HW-3-Password-Generator
