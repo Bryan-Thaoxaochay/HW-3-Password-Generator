@@ -27,22 +27,34 @@ function writePassword() {
 
   // Generate Password
   function generatePassword(length, upperCase, lowerCase, numbers, specialCharacters) {
+    
     // Password Criteria
-    var length = prompt("Choose a number between 8 and 128 for your password length.")
-    var upperCase = alert("Can we include uppercase letters?")
-    var lowerCase = alert("Can we include lowercase letters?")
-    var numbers = alert("Can we include numbers?")
-    var specialCharacters = alert("Can we include special characters?")
+    var length = prompt("How long should the password be (between 8 to 128 characters)? Please answer with a number (i.e. 8)")
+    length = parseInt(length)
 
     
-  }
+    var upperCase = prompt("Can we include uppercase letters? (Yes/No)")
+    upperCase = upperCase.toLowerCase
+    
+    var lowerCase = prompt("Can we include lowercase letters? (Yes/No)")
+    lowerCase = lowerCase.toLowerCase
+    
+    var numbers = prompt("Can we include numbers? (Yes/No)")
+    numbers = numbers.toLowerCase
+    
+    var specialCharacters = prompt("Can we include special characters? (Yes/No)")
+    specialCharacters = specialCharacters.toLowerCase
+
+    }
+
   
-  var password = generatePassword();
+}
+
+var password = generatePassword(length, upperCase, lowerCase, numbers, specialCharacters);
 
   var passwordText = document.querySelector("#password"); // This is selecting the password ID from the HTML and making it a variable.
 
   passwordText.value = password; // This is calling the value of the password created. 
-
 }
 
 // Add event listener to generate button
